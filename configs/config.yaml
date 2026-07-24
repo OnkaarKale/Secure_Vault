@@ -1,0 +1,10 @@
+# SecureVault Global Configuration
+database_path: "./data/securevault.db"
+backup_dir: "./backups"
+log_level: "info"
+log_file: "./securevault.log"
+session_timeout_minutes: 15
+clipboard_timeout_sec: 30
+max_login_attempts: 5
+lockout_duration_minutes: 15
+backup_rotation_count: 10

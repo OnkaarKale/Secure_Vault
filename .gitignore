@@ -1,0 +1,31 @@
+# Binaries & Executables
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Database & SQLite Files
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+*.db
+
+# Backups & Exports
+backups/
+*.svb
+vault_export.json
+vault_export.csv
+*.csv
+*.json
+
+# Logs & Environment
+*.log
+config.json
+.env
+
+# OS Metadata
+.DS_Store
+Thumbs.db
